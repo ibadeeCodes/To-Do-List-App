@@ -1,0 +1,64 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    max-width: 360px;
+    margin: 65px auto;
+}
+.bar {
+    background-color: black;
+    height: 24px;
+}
+.bar a i {
+    color: white;
+    padding: 0px 2px;
+}
+.header {
+    background: url("/img/image3.jpg") no-repeat center / cover;
+    height: 230px;
+}
+.content {
+    height: 310px;
+}
+.clear {
+    padding: 10px 0px;
+}
+.clear i {
+    font-size: 40px;
+    background-color:black;
+    color: #fff;
+    transition: 0.3s;
+}
+.clear i:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.add-item {
+    position: relative;
+}
+.item {
+    padding: 5px 10px;
+}
+.item a i {
+    cursor: pointer;
+}
+.trash {
+    color: red;
+}
+.LineThrough 
+{
+    text-decoration: line-through;
+}
+.text {
+    text-decoration: none;
+}
+
+
+
+
